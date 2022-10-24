@@ -2,6 +2,7 @@ import { format } from "date-fns";
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { usersContext } from "../../pages/Users";
+import mailImg from "../../assets/mail.svg"
 
 export default function UserDisplay() {
   const usersDetails = useContext(usersContext)
@@ -26,7 +27,7 @@ export default function UserDisplay() {
           </div>
         </div>
         <div className="email" aria-label="email address">
-          <img src='../public/mail.svg' alt="e" />
+          <img src={mailImg} alt="e" />
           <div className="contact">
             <p>EMAIL</p>
             <p>{email}</p>
