@@ -21,7 +21,7 @@ export default function UserDisplay() {
       </header>
       <section className="userContact">
         <div className="phone" aria-label="phone number">
-          <img src={phone} alt="p" />
+          <img src={phoneImg} alt="p" />
           <div className="contact">
             <p>MOBILE</p>
             <p>{phone}</p>
