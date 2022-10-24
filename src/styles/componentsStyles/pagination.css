@@ -1,0 +1,22 @@
+.pagination{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10px;
+}
+.pagination button{
+  border: 1px solid #1115;
+  padding: 3px;
+  text-align: center;
+  font-size: 0.8em;
+  margin: 2px;
+  cursor: pointer;
+  width: 30px;
+  border-radius: 8px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #2226;
+}
+.pagination button:active{
+  scale: 0.9 0.9;
+}

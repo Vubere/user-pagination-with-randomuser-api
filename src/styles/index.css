@@ -1,0 +1,30 @@
+@import url('./componentsStyles/header.css');
+@import url('./componentsStyles/userDisplay.css');
+@import url('./componentsStyles/pagination.css');
+@import url('./componentsStyles/filter.css');
+@import url('./componentsStyles/loading.css');
+@import url('./pagesStyles/user.css');
+@import url('./pagesStyles/home.css');
+
+::-webkit-scrollbar{
+  width: 0;
+  display: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0001;
+  align-items: center;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,23 @@
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.buttonToUser{
+  width: 100px;
+  border: 1px solid #2222;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttonToUser:active{
+  scale: 0.9 0.9;
+}
+a{
+  text-decoration: none;
+}
