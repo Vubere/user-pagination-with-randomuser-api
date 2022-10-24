@@ -19,14 +19,14 @@ export default function UserDisplay() {
       </header>
       <section className="userContact">
         <div className="phone" aria-label="phone number">
-          <img src='/src/assets/phone.svg' alt="p" />
+          <img src='../../public/phone.svg' alt="p" />
           <div className="contact">
             <p>MOBILE</p>
             <p>{phone}</p>
           </div>
         </div>
         <div className="email" aria-label="email address">
-          <img src='/src/assets/mail.svg' alt="e" />
+          <img src='../../public/mail.svg' alt="e" />
           <div className="contact">
             <p>EMAIL</p>
             <p>{email}</p>

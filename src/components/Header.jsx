@@ -7,7 +7,7 @@ export default function Header() {
        
         <div className="logo">
           <Link to="/">
-            <img src="/src/assets/usersIcon.svg" alt="user icon" />
+            <img src="../public/usersIcon.svg" alt="user icon" />
           </Link>
         </div>
      

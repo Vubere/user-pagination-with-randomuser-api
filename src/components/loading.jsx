@@ -17,7 +17,7 @@ export default function Loading(){
     <>
       {!tookTooLong ? (
         <div className="loadingComponent">
-          <img src="./public/src/assets/loading.svg" alt="" />
+          <img src="../../public/loading.svg" alt="" />
         </div>
       ) : (
         <div className="loadingTookTooLong">
