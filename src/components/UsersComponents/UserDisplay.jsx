@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { usersContext } from "../../pages/Users";
 import mailImg from "../../assets/mail.svg"
+import phoneImg from "../../assets/phone.svg"
 
 export default function UserDisplay() {
   const usersDetails = useContext(usersContext)
@@ -20,7 +21,7 @@ export default function UserDisplay() {
       </header>
       <section className="userContact">
         <div className="phone" aria-label="phone number">
-          <img src='../public/phone.svg' alt="p" />
+          <img src={phone} alt="p" />
           <div className="contact">
             <p>MOBILE</p>
             <p>{phone}</p>

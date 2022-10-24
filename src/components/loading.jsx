@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-
+import loading from "../assets/loading.svg"
 
 export default function Loading(){
   const [tookTooLong, setTookToolong] = useState(false)
@@ -17,7 +17,7 @@ export default function Loading(){
     <>
       {!tookTooLong ? (
         <div className="loadingComponent">
-          <img src="../public/loading.svg" alt="" />
+          <img src={loading} alt="" />
         </div>
       ) : (
         <div className="loadingTookTooLong">

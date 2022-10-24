@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/usesIcon"
 
 export default function Header() {
   return (
@@ -7,7 +8,7 @@ export default function Header() {
        
         <div className="logo">
           <Link to="/">
-            <img src="../public/usersIcon.svg" alt="user icon" />
+            <img src={logo} alt="user icon" />
           </Link>
         </div>
      
