@@ -24,6 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               <Route path="/users" element={<User />}>
                 <Route path=":pagenum" element={<UserDisplay />} />
               </Route>
+              <Route path="*" element={<NotFound />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>

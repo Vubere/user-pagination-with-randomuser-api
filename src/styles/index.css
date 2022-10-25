@@ -28,3 +28,21 @@ body{
   width: 100vw;
   height: 100vh;
 }
+article{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+article>span{
+  font-size: 40px;
+}
+article.error{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

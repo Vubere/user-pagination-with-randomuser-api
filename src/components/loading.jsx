@@ -22,7 +22,7 @@ export default function Loading(){
       ) : (
         <div className="loadingTookTooLong">
           Loading took too long, check your internet and try again
-          <button onClick={() => window.location.reload()}>try again</button>
+          <button onClick={() => window.location.replace(window.location.origin+window.location.pathname)}>try again</button>
         </div>
       )}
     </>
