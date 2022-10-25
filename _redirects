@@ -1,6 +1,1 @@
-[[redirects]]
-  from = '/users'
-  to= '/users'
-  status = '404'
-  force = true
-  query = {path = '/'}
+/* / 200
